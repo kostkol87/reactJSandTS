@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --jsx react --module commonjs .\\app\\*.tsx"
   },
   "author": "Konstantin Kolesov",
   "license": "ISC",
