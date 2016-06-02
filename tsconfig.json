@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "rootDir": "app",
+    "target": "ES5"
+  },
+  "files": [
+    "app/HelloWorld.tsx"
+  ]
+}
