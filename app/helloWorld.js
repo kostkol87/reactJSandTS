@@ -1,4 +1,3 @@
-///<reference path="../typings/react/react-global.d.ts"/>
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
@@ -10,9 +9,8 @@ var HelloWorld = (function (_super) {
         _super.apply(this, arguments);
     }
     HelloWorld.prototype.render = function () {
-        return <div>Hello World!!! =)</div>;
+        return (React.createElement("div", null, "Hello World!!! =)"));
     };
     return HelloWorld;
 }(React.Component));
-ReactDOM.render(<HelloWorld />, document.getElementById('app'));
-//# sourceMappingURL=HelloWorld.js.map
+ReactDOM.render(React.createElement(HelloWorld, null), document.getElementById('app'));

@@ -2,14 +2,20 @@
   "compilerOptions": {
     "jsx": "react",
     "module": "commonjs",
+    "declaration": false,
     "noImplicitAny": false,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "sourceMap": false,
     "rootDir": "app",
     "target": "ES5"
   },
   "files": [
-    "app/HelloWorld.tsx"
+    "app/helloWorld.tsx",
+    "app/helloWorld.spec.ts",
+    "app/run.ts"
   ]
 }
