@@ -37,6 +37,9 @@
     },
     "react/react-addons-pure-render-mixin.d.ts": {
       "commit": "edb64e4a35896510ce02b93c0bca5ec3878db738"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "edb64e4a35896510ce02b93c0bca5ec3878db738"
     }
   }
 }

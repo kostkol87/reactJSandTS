@@ -9,6 +9,8 @@
   "author": "Konstantin Kolesov",
   "license": "ISC",
   "dependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
     "react": "^15.1.0"
   }
 }

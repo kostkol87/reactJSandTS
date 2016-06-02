@@ -10,9 +10,9 @@ var HelloWorld = (function (_super) {
         _super.apply(this, arguments);
     }
     HelloWorld.prototype.render = function () {
-        return React.createElement("div", null, "Hello World!!! =)");
+        return <div>Hello World!!! =)</div>;
     };
     return HelloWorld;
-})(React.Component);
-ReactDOM.render(React.createElement(HelloWorld, null), document.getElementById('app'));
+}(React.Component));
+ReactDOM.render(<HelloWorld />, document.getElementById('app'));
 //# sourceMappingURL=HelloWorld.js.map
